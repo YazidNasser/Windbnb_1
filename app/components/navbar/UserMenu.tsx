@@ -44,8 +44,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
                 <div 
                 onClick ={onRent}
                 className="
-                hideen
-                mb:block
+                hidden
+                md:block
                 text-sm
                 font-semibold
                 py-3
@@ -89,7 +89,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
             absolute
             rounded-xl
             shadow-md
-            w-[40ww]
+            w-[40vw]
             md:w-3/4
             bg-white
             overflow-hidden
