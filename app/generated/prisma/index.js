@@ -161,7 +161,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\User\\OneDrive\\Desktop\\my-windbnb\\app\\generated\\prisma",
+      "value": "E:\\windbnb\\Windbnb_1\\app\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {

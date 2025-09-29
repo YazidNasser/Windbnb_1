@@ -30,6 +30,8 @@ export default async function getListings(
 
     return safeListings;
   } catch (error: any) {
-    throw new Error(error);
+    console.error("Failed to fetch listings:", error);
+    // Fallback so the homepage still renders instead of hanging
+    return [];
   }
 }
