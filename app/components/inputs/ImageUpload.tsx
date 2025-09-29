@@ -30,10 +30,10 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
             maxFiles: 1
           }}
         >
-        {({ open }) => {
+        {(widget) => {
             return (
                 <div
-                 onClick={() => open?.()}
+                 onClick={() => widget?.open?.()}
                  className="
                   relative
                   cursor-pointer
