@@ -161,7 +161,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "E:\\windbnb\\Windbnb_1\\app\\generated\\prisma",
+      "value": "C:\\Users\\User\\Windbnb_1\\app\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -178,8 +178,7 @@ const config = {
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../.env",
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "4.16.2",
