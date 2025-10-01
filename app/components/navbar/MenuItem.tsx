@@ -20,7 +20,6 @@ const MenuItem: React.FC<MenuItemProps> = ({
         transition
         font-semibold
         "
-
         >
             {label}
         </div>
